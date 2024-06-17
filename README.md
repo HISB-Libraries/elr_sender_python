@@ -5,7 +5,7 @@ To set up the environment,
 
 Prepare the hl7 message. The message needs to wrapped with the following character.
 
-**Format:** [SB]message[EB][CR] for MLLP**
+**Format:** \[SB\]message\[EB\]\[CR\] for MLLP**
 * [SB]: \x0b
 * [EB]: \x1c
 * [CR]: \x0d
