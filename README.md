@@ -14,4 +14,4 @@ Some ascii editor changes the end of line with a carriage return. In this case, 
 an error sending data.
 
 To send the data, 
-```mllp_send --file hl7v2msg251.txt --port 6661 localhost```
+```mllp_send --file hl7v2msg251.txt --port 8888 localhost```
