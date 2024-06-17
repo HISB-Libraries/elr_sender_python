@@ -6,9 +6,9 @@ To set up the environment,
 Prepare the hl7 message. The message needs to wrapped with the following character.
 
 **<SB>message<EB><CR> for MLLP**
-- <SB>: \x0b
-- <EB>: \x1c
-- <CR>: \x0d
+* <SB>: \x0b
+* <EB>: \x1c
+* <CR>: \x0d
 
 Some ascii editor changes the end of line with a carriage return. In this case, it may cause
 an error sending data.
