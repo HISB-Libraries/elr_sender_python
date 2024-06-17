@@ -3,12 +3,12 @@ To set up the environment,
 * install python
 * install hl7 by running "pip install -U hl7"
 
-Prepare the hl7 message. The message needs to wrapped with the following character.
+Prepare the hl7 message. The message needs to wrapped with the following characters.
 
 **Format:** \[SB\]message\[EB\]\[CR\] for MLLP**
-* [SB]: \x0b
-* [EB]: \x1c
-* [CR]: \x0d
+* \[SB\]: 0x0b
+* \[EB\]: 0x1c
+* \[CR\]: 0x0d
 
 Some ascii editor changes the end of line with a carriage return. In this case, it may cause
 an error sending data.
